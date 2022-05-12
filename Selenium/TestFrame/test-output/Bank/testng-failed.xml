@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="rahulshettyacademy.com"/>
+  <parameter name="NAME" value="Indira"/>
+  <listeners>
+    <listener class-name="LearnTest.ListenerInterface"/>
+  </listeners>
+  <test thread-count="5" name="personalloan(failed)">
+    <classes>
+      <class name="LearnTest.Demo">
+        <methods>
+          <include name="lastexec"/>
+          <include name="printbefore"/>
+          <include name="printclass"/>
+          <include name="printafterclass"/>
+          <include name="print"/>
+          <include name="atlast"/>
+          <include name="printafter"/>
+        </methods>
+      </class> <!-- LearnTest.Demo -->
+    </classes>
+  </test> <!-- personalloan(failed) -->
+</suite> <!-- Failed suite [Bank] -->
