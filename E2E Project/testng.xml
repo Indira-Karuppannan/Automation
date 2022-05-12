@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="Selenium.Listeners"/>
+</listeners>
+  <test name="Validating data in HomePage">
+    <classes>
+     
+      <class name="Selenium.Validatedata"/>
+ </classes>
+</test>
+<test name="LoginPage">
+<classes>
+      <class name="Selenium.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

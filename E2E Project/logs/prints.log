@@ -1,0 +1,6 @@
+11:46:29.512 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6f8d7e2ada223c64
+11:46:29.564 [TestNG-tests-2] INFO  Selenium.HomePage - driver initialized
+11:48:16.327 [TestNG-tests-2] INFO  Selenium.HomePage - Navigate to url
+11:48:17.874 [TestNG-tests-2] INFO  Selenium.HomePage - nonrestrictedUser
+11:48:34.475 [TestNG-tests-2] INFO  Selenium.HomePage - Navigate to url
+11:48:35.346 [TestNG-tests-2] INFO  Selenium.HomePage - restrictedUser
